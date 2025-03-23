@@ -16,7 +16,21 @@ Dashboard Analisis Penyewaan Sepeda
 ## Cara Setup dan Jalankan di Lokal
 
 - Clone Repository
+
   ```bash
   git clone https://github.com/diegratia/data-analisis.git
   cd data-analisis
+  ```
+
+  ## Install Dependensi
+
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+  ## Run Dashboard
+
+  ```bash
+  cd dashboard
+  streamlit run dashboard.py
   ```
