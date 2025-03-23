@@ -6,7 +6,7 @@ import seaborn as sns
 
 st.set_page_config(page_title="Dashboard Penyewaan Sepeda", layout="wide")
 
-st.title("Dashboard Analisis Penyewaan Sepeda (2011-2012)")
+st.title("Dashboard Analisis Penyewaan Sepeda")
 
 @st.cache_data  
 def load_data():
